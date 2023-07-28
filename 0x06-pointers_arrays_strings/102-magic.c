@@ -2,22 +2,22 @@
 
 int main(void)
 {
-  int m;
-  int b[5];
-  int *q;
+  int n;
+  int a[5];
+  int *p;
 
-  b[2] = 1024;
-  q = &n;
+  a[2] = 1024;
+  p = &n;
   /*
-   * Write your lines of codes here...
+   * Write your lines of code here...
    * Remember:
-   * - you are not allowed to use m
-   * - you are not allowed to modify q
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-  *(q + 5) = 98;
-  /* ...so that this prints 98\m */
-  printf("b[2] = %d\m", a[2]);
+  *(p + 5) = 98;
+  /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
   return (0);
 }
